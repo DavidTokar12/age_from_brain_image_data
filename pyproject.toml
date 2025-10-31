@@ -1,11 +1,17 @@
 [project]
-name = "ml-sandbox"
+name = "age_from_brain_image_data"
 version = "0.0.1"
 authors = [{ name = "David Tokar", email = "1413david@gmail.com" }]
-description = "Local ML sandbox"
+description = "age_from_brain_image_data"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "catboost>=1.2.8",
+    "jupytext>=1.18.1",
+    "lightgbm>=4.6.0",
+    "torch>=2.9.0",
+    "xgboost>=3.1.1",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -76,4 +82,4 @@ ban-relative-imports = "all"
 force-single-line = true
 lines-between-types = 1
 lines-after-imports = 2
-known-first-party = ["ml_sandbox"]
+known-first-party = ["age_from_brain_image_data"]

@@ -1,5 +1,5 @@
 {
-  "name": "ml-uv-ruff",
+  "name": "age_from_brain_image_data",
   "build": {
     "dockerfile": "Dockerfile"
   },
